@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio | Carlos Andrés</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+  <div id="loader">
+
+  <div class="loader-logo">
+    CG
+  </div>
+
+</div>
+
+  <header class="header">
+    <div class="scroll-progress"></div>
+    <div class="container">
+      <nav class="nav">
+        <span class="gradient-text">
+  Carlos Andrés
+</span>
+        
+        <ul class="nav-menu">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#gallery">Galería</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+
+        <div class="theme-toggle" id="themeToggle">
+          <i class="fas fa-sun"></i>
+        </div>
+
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1 class="hero-title">Hola, soy <span class="typewriter"></span></h1>
+    <p class="hero-subtitle">Desarrollador web apasionado por crear experiencias digitales modernas, responsivas y de alto impacto.</p>
+    <button class="cta-btn magnetic" onclick="scrollToSection('projects')">Ver mis proyectos</button>
+<div class="hero-stats">
+
+  <div class="hero-stat">
+    <h3>3+</h3>
+    <p>Proyectos</p>
+  </div>
+
+  <div class="hero-stat">
+    <h3>100%</h3>
+    <p>Responsive</p>
+  </div>
+
+  <div class="hero-stat">
+    <h3>24/7</h3>
+    <p>Aprendizaje</p>
+  </div>
+<div class="floating-icons">
+
+  <span>HTML</span>
+
+  <span>CSS</span>
+
+  <span>JS</span>
+
+  <span>Firebase</span>
+
+  <span>UI/UX</span>
+
+</div>
+
+
+  </div>
+  
+  <!-- Contenedor para las chispas -->
+  <div class="theme-sparks" id="themeSparks"></div>
+</section>
+
+  <section id="about" class="fade-in">
+    <div class="container">
+      <h2 class="section-title">Sobre mí</h2>
+      <div class="about-content">
+        <div>
+          <img src="imagen/foto.png" alt="Carlos Andrés" class="profile-photo">
+        </div>
+        <div class="about-text">
+          <p>Soy Carlos Andrés, desarrollador web desde Artigas, Uruguay. Me especializo en crear interfaces limpias, rápidas y accesibles usando HTML, CSS y JavaScript moderno.</p>
+          <p>Me apasiona el diseño responsivo, las animaciones sutiles y construir productos que realmente resuelvan problemas reales.</p>
+
+          <div class="skills">
+            <h3>Habilidades principales</h3>
+            <div class="skill-bars">
+              <div class="skill">
+                <div class="skill-name">
+                  <i class="fab fa-html5"></i> HTML5
+                </div>
+                <div class="pixel-bar" data-percent="98">
+                  <div class="pixel-fill"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-name">
+                  <i class="fab fa-css3-alt"></i> CSS3 
+                </div>
+                <div class="pixel-bar" data-percent="98">
+                  <div class="pixel-fill"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-name">
+                  <i class="fab fa-js-square"></i> JavaScript 
+                </div>
+                <div class="pixel-bar" data-percent="70">
+                  <div class="pixel-fill"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-name">
+                  <i class="fab fa-react"></i> React
+                </div>
+                <div class="pixel-bar" data-percent="15">
+                  <div class="pixel-fill"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-name">
+                  <i class="fas fa-mobile-alt"></i> Responsive Design
+                </div>
+                <div class="pixel-bar" data-percent="98">
+                  <div class="pixel-fill"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-name">
+                  <i class="fas fa-palette"></i> UI/UX Basics
+                </div>
+                <div class="pixel-bar" data-percent="65">
+                  <div class="pixel-fill"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="services">
+
+  <h1>Servicios</h1>
+
+  <div class="services-grid">
+
+<div class="service-card">
+      <i class="fas fa-code"></i>
+      <h3>Desarrollo Web</h3>
+      <p>Webs modernas y responsive.</p>
+    </div>
+
+    
+    <div class="service-card">
+      <i class="fas fa-mobile-alt"></i>
+      <h3>Diseño Responsive</h3>
+      <p>Optimización para móviles y tablets.</p>
+    </div>
+
+    <div class="service-card">
+      <i class="fas fa-newspaper"></i>
+      <h3>Portales de Noticias</h3>
+      <p>Interfaces modernas para medios digitales.</p>
+    </div>
+
+  </div>
+
+</section>
+
+ <section id="projects" class="fade-in projects">
+  <div class="container">
+    <h2 class="section-title">Proyectos</h2>
+    <div class="projects-grid">
+      
+      <div class="project-card">
+  <img src="imagen/Talk.png" alt="TaskFlow">
+  <h3>TaskFlow - Gestor de Tareas</h3>
+  <p>Aplicación web para organizar tareas con drag & drop, localStorage y diseño minimalista.</p>
+  <a 
+    href="https://carlosgdar.github.io/TaskFlow.apk/" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    class="github-btn"
+    data-project="project1"  
+  >
+    <i class="fab fa-github"></i>  Ver Demo
+  </a>
+</div>
+ <div class="project-card">
+  <img src="imagen/Noti.png" alt="Noticias">
+  <h3>Noticias</h3>
+  <p>Portal de noticias moderno y responsive inspirado en medios digitales profesionales como Infobae. Diseñado para ofrecer una experiencia rápida, visual e intuitiva en computadoras y dispositivos móviles, incorporando categorías dinámicas, carrusel de noticias, secciones multimedia, diseño optimizado y navegación interactiva para mejorar la lectura y el acceso a la información en tiempo real.</p>
+  <a 
+    href="https://carlosgdar.github.io/Noticias/" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    class="github-btn"
+    data-project="project2"  
+  >
+    <i class="fab fa-github"></i>  Ver Demo
+  </a>
+</div>
+
+  <div class="project-card">
+  <img src="imagen/Pagina dentista.png" alt="SmilePro">
+  <h3>SmilePro es una página web moderna para una clínica dental</h3>
+  <p>Es una solución completa, ligera y lista para usar como base de un sistema real de gestión dental.</p>
+  <a 
+    href="https://carlosgdar.github.io/Pagina-dentista/" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    class="github-btn"
+    data-project="project1"  
+  >
+    <i class="fab fa-github"></i>  Ver Demo
+  </a>
+</div>
+
+  <div class="project-card">
+  <img src="imagen/Gym.png" alt="GymFlow - Scheduler">
+  <h3>GymFlow - Scheduler</h3>
+  <p>Es una aplicación web simple pero completa para gestionar reservas de clases en un gimnasio. Está hecha solo con HTML, CSS y JavaScript.</p>
+  <a 
+    href="https://carlosgdar.github.io/APP-GYMN/" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    class="github-btn"
+    data-project="project1"  
+  >
+    <i class="fab fa-github"></i>  Ver Demo
+  </a>
+</div>
+
+  <div class="project-card">
+  <img src="imagen/Pelis.png" alt="StreamLatino">
+  <h3>StreamLatino</h3>
+  <p>Es una plataforma de streaming moderna y fácil de usar, diseñada especialmente para todo el público.</p>
+  <a 
+    href="https://carlosgdar.github.io/StreamLatino/" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    class="github-btn"
+    data-project="project1"  
+  >
+    <i class="fab fa-github"></i>  Ver Demo
+  </a>
+</div>
+
+  <div class="project-card">
+  <img src="imagen/automotora.png" alt="MOTORA">
+  <h3>MOTORA - Qualidade, velocidade e confiança em um só lugar.</h3>
+  <p>A Motora é uma concessionária premium especializada na venda de carros e motos de alto desempenho, além de acessórios e peças de qualidade. Com sede em Alegrete, Rio Grande do Sul, oferecemos a melhor experiência de compra com financiamento facilitado, entrega para todo o Brasil e total transparência.</p>
+  <a 
+    href="https://carlosgdar.github.io/Tienda-auto-MOTORA/" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    class="github-btn"
+    data-project="project1"  
+  >
+    <i class="fab fa-github"></i>  Ver Demo
+  </a>
+</div>
+
+    </div>
+  </div>
+
+
+<section class="timeline-section fade-in">
+
+  <h2 class="section-title">
+    Experiencia & Aprendizaje
+  </h2>
+
+  <div class="timeline">
+
+    <div class="timeline-item">
+
+      <div class="timeline-dot"></div>
+
+      <div class="timeline-content">
+
+        <span>2024</span>
+
+        <h3>Desarrollo Frontend</h3>
+
+        <p>
+          Inicio de proyectos personales y prácticas
+          en HTML, CSS y JavaScript.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="timeline-item">
+
+      <div class="timeline-dot"></div>
+
+      <div class="timeline-content">
+
+        <span>2025</span>
+
+        <h3>Firebase & UI Moderna</h3>
+
+        <p>
+          Desarrollo de portfolios interactivos,
+          formularios con Firebase y diseño responsive.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="timeline-item">
+
+      <div class="timeline-dot"></div>
+
+      <div class="timeline-content">
+
+        <span>Actualmente</span>
+
+        <h3>Proyectos Avanzados</h3>
+
+        <p>
+          Creación de aplicaciones modernas,
+          interfaces premium y experiencias visuales.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+</section>
+
+  <section id="gallery" class="fade-in">
+    <div class="container">
+      <h2 class="section-title">Galería de Proyectos</h2>
+      <div class="carousel-container">
+        <button class="carousel-btn prev" onclick="changeSlide(-1)">&#8249;</button>
+        <div class="carousel-track" id="carouselTrack">
+          <div class="carousel-slide active">
+            <img src="imagen/Galery 1.png" alt="Proyecto 1 Detalle">
+          </div>
+          <div class="carousel-slide">
+            <img src="imagen/Reproductor.png" alt="Proyecto 2 Detalle">
+          </div>
+          <div class="carousel-slide">
+            <img src="imagen/Galery 3.png" alt="Proyecto 3 Detalle">
+          </div>
+          <div class="carousel-slide">
+            <img src="imagen/Galery 4.png" alt="Proyecto 1 Mockup">
+          </div>
+          <div class="carousel-slide">
+            <img src="imagen/Galery 5.png" alt="Proyecto 2 Mockup">
+          </div>
+        </div>
+        <button class="carousel-btn next" onclick="changeSlide(1)">&#8250;</button>
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+    </div>
+  </section>
+
+
+<section class="contact-section" id="contact">
+
+  <div class="contact-container">
+
+    <h2 class="contact-title">
+      Contacto
+    </h2>
+
+    <p class="contact-subtitle">
+      ¿Tienes un proyecto o propuesta? Hablemos.
+    </p>
+
+    <form id="contactForm" class="contact-form">
+
+      <div class="input-group">
+
+        <input 
+          type="text"
+          id="name"
+          placeholder="Tu nombre"
+          required
+        >
+
+        <input 
+          type="email"
+          id="email"
+          placeholder="Tu correo"
+          required
+        >
+
+      </div>
+
+      <textarea
+        id="message"
+        placeholder="Escribe tu mensaje..."
+        required
+      ></textarea>
+
+      <button type="submit" class="contact-btn">
+        Enviar mensaje
+      </button>
+
+    </form>
+
+    <div class="social-links">
+
+      <a href="https://www.linkedin.com/in/carlos-garc%C3%ADa-da-rosa-9281621bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+         target="_blank"
+         class="social-btn">
+
+        <i class="fab fa-linkedin"></i>
+        LinkedIn
+
+      </a>
+
+      <a href="https://carlosgdar.github.io"
+         target="_blank"
+         class="social-btn">
+
+        <i class="fab fa-github"></i>
+        GitHub
+
+      </a>
+
+      <a href="https://wa.me/59899975192"
+         target="_blank"
+         class="social-btn">
+
+        <i class="fab fa-whatsapp"></i>
+        WhatsApp
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+  <section class="stats">
+
+  <div class="stat-box">
+    <h2>10+</h2>
+    <p>Proyectos</p>
+  </div>
+
+  <div class="stat-box">
+    <h2>100%</h2>
+    <p>Responsive</p>
+  </div>
+
+  <div class="stat-box">
+    <h2>24/7</h2>
+    <p>Creatividad</p>
+  </div>
+
+</section>
+
+  <footer class="footer">
+    <p>© 2026 Carlos Andrés. Hecho con pasión y código limpio.</p>
+  </footer>
+
+  <!-- Modal -->
+  <div id="projectModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">×</span>
+      <div id="modalBody"></div>
+      <div id="toast"></div>
+    </div>
+  </div>
+
+ <script type="module" src="script.js"></script>
+ <div class="cursor-glow"></div>
+</body>
+</html>
